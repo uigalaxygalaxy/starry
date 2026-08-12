@@ -278,4 +278,30 @@ html {
     color: var(--primary);
 }
 
-@media (max-width: 700px) {}
+@media (max-width: 740px) {
+    .buttons {
+        gap: 5px;
+    }
+}
+@media (max-width: 640px) {
+    .buttons {
+        font-size: 1.25rem;
+    }
+}
+@media (max-width: 580px) {
+    .buttons {
+        visibility: hidden;
+        mouse-events: none;
+        width: 0px;
+    }
+    .hudFlex {
+        padding: 0;
+        padding-bottom: 14px;
+        align-items: center;
+        justify-content: center;
+    }
+    .titlebar {
+        margin-right: 20px;
+        margin-top: -10px;
+    }
+}

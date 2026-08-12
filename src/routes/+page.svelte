@@ -37,7 +37,8 @@
                 class="opacity-70 text-right right-0 absolute font-[Arial_Nova] text-3xl newsTextFlip w-fit -translate-y-1  mix-blend-overlay">
                 Testimonies
             </div>
-            <div class=" text-xl text-(--black) text-center font-[Arial_Nova] overflow-hidden h-7 bg-mauve-700">
+            <div
+                class=" text-xl text-(--black) text-center font-[Arial_Nova] overflow-hidden h-7 bg-mauve-700 text-nowrap">
                 <div class="newsBox ">
                     "Starry is so awsum and amazzing" - Mamdani <br>
                     "Starry sure was trouble" - Dean Withers <br>
