@@ -3,9 +3,9 @@
     import Image from './image.svelte';
 </script>
 
-<div class="bg-mauve-800 text-white min-h-screen font-[Arial_Nova] text-xl">
-    <div class="fixed bg-mauve-800 ">
-        <div class="fixed flex justify-between w-full bg-mauve-800 pt-3  z-20 pb-3 hudFlex">
+<div class="bg-mauve-800 text-white min-h-screen font-[Arial_Nova] text-xl ">
+    <div class="fixed bg-mauve-800 z-10  ">
+        <div class="fixed flex justify-between w-full bg-mauve-800 pt-3  z-20 pb-3 hudFlex ">
             <div class="flex titlebar text-4xl ml-5 ">
                 45434<span>Y</span>
                 <span class="absolute italic ml-10 pt-4"
@@ -15,13 +15,13 @@
             </div>
 
             <div class="flex justify-center items-center pt-3 h-auto buttons text-2xl titlebar gap-10 mr-5">
-                <a class="button titleButton" href="#leaks">
+                <a class="button titleButton visited:text-gray-300" href="#leaks">
                     Leaks
                 </a>
-                <a class="button titleButton" href="#autons">
+                <a class="button titleButton visited:text-gray-300" href="#autons">
                     Autons
                 </a>
-                <a class="button titleButton" href="#roster">
+                <a class="button titleButton visited:text-gray-300" href="#roster">
                     Competition Roster
                 </a>
 
@@ -29,7 +29,7 @@
 
 
         </div>
-        <div class="mt-19 fixed inset-x-0 w-full z-0">
+        <div class="mt-19 fixed inset-x-0 w-full z-0 ">
             <div class="absolute font-[Arial_Nova] text-3xl newsText w-fit -translate-y-1 opacity-70 mix-blend-overlay">
                 Testimonies
             </div>
@@ -38,7 +38,7 @@
                 Testimonies
             </div>
             <div class=" text-xl text-(--black) text-center font-[Arial_Nova] overflow-hidden h-7 bg-mauve-700">
-                <div class="newsBox">
+                <div class="newsBox ">
                     "Starry is so awsum and amazzing" - Mamdani <br>
                     "Starry sure was trouble" - Dean Withers <br>
                     "I will make you my [Programmer], and you will love it. You will [happily want] to [program for me]
@@ -393,6 +393,8 @@
                 target="_blank" rel="noopener noreferrer">Made
                 by uiGalaxy @ uigalaxy.net</a>
         </div>
+
+        <div class="h-32"></div>
 
 
 
