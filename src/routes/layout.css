@@ -38,6 +38,29 @@ html {
 
 }
 
+.instagram {
+    fill: var(--primary);
+    stroke: black;
+    overflow: visible;
+    transition: all 0.3s cubic-bezier(.11, 1.22, .91, 1.18);
+}
+
+.instagram:hover {
+    fill: white;
+    stroke: var(--primary);
+    box-shadow: 0 0 10px var(--primary);
+
+}
+
+.instagram:active {
+    fill: var(--primary);
+    stroke: white;
+    box-shadow: 0 0 10px white;
+    transform: scale(1.05);
+    transition-duration: 0.2s;
+
+}
+
 .titleButton {
     border: 2px solid var(--primary);
     border-radius: 0.5rem;
@@ -291,7 +314,7 @@ html {
 @media (max-width: 580px) {
     .buttons {
         visibility: hidden;
-        mouse-events: none;
+        pointer-events: none;
         width: 0px;
     }
     .hudFlex {
