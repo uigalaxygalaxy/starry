@@ -167,50 +167,6 @@
 
         </div>
 
-        <div class="mt-4 flex w-full align-center justify-center">
-
-            <!-- copy this div with w-120 -->
-            <div class="w-120 border-mauve-500 border-2 rounded-lg p-2 flex flex-col gap-2">
-                <div class="text-center">
-                    LAUNCH <br><span class="italic text-lg opacity-50 -mt-1 block">~Nov 2, 2026</span>
-                </div>
-                <div class="vexShowWrapper">
-                    <!-- No Awards
-                    <div class="vexBrick">
-                        <p class="vexBrickText">EXCELLENCE</p>
-                        <p class="vexBrickTextStroke">EXCELLENCE</p>
-
-                        <p class="vexLocation">Washington Court House</p>
-
-                    </div>
--->
-                </div>
-                <!--
-                <div class="vexNonImportant mb-4">
-                    
-                    Judges x2 - <span class="vexNonPlaces">North Union, King of the Hill</span> <br>
-                    Think - <span class="vexNonPlaces">Southwest Oaks</span>
-                    
-                </div> -->
-
-                <!--
-                <div class="vexQualWrapper">
-                    <div class="vexQualBoxNot">
-                        <p class="vexQualType">STATES</p>
-                        <p class="vexQualled">Not Qualified</p>
-                    </div>
-                    <div class="vexQualBoxNot">
-                        <p class="vexQualType">WORLDS</p>
-                        <p class="vexQualled">Not Qualified</p>
-                    </div>
-                </div>
-                -->
-            </div>
-
-
-
-
-        </div>
 
         <div class="mt-4 flex w-full align-center justify-center">
 
@@ -256,6 +212,55 @@
 
 
         </div>
+
+
+
+        <div class="mt-4 flex w-full align-center justify-center">
+
+            <!-- copy this div with w-120 -->
+            <div class="w-120 border-mauve-500 border-2 rounded-lg p-2 flex flex-col gap-2">
+                <div class="text-center">
+                    LAUNCH <br><span class="italic text-lg opacity-50 -mt-1 block">Dec 18, 2026</span>
+                </div>
+                <div class="vexShowWrapper">
+                    <!-- No Awards
+                    <div class="vexBrick">
+                        <p class="vexBrickText">EXCELLENCE</p>
+                        <p class="vexBrickTextStroke">EXCELLENCE</p>
+
+                        <p class="vexLocation">Washington Court House</p>
+
+                    </div>
+-->
+                </div>
+                <!--
+                <div class="vexNonImportant mb-4">
+                    
+                    Judges x2 - <span class="vexNonPlaces">North Union, King of the Hill</span> <br>
+                    Think - <span class="vexNonPlaces">Southwest Oaks</span>
+                    
+                </div> -->
+
+                <!--
+                <div class="vexQualWrapper">
+                    <div class="vexQualBoxNot">
+                        <p class="vexQualType">STATES</p>
+                        <p class="vexQualled">Not Qualified</p>
+                    </div>
+                    <div class="vexQualBoxNot">
+                        <p class="vexQualType">WORLDS</p>
+                        <p class="vexQualled">Not Qualified</p>
+                    </div>
+                </div>
+                -->
+            </div>
+
+
+
+
+        </div>
+
+        
 
         <div class="mt-4 flex w-full align-center justify-center">
 
